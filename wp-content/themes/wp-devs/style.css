@@ -13,3 +13,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: wp-devs
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, style-variations, wide-blocks, block-styles, accessibility-ready, blog, portfolio, news
 */
+
+.top-bar{
+    background: blue;
+    height: 70px;
+}
