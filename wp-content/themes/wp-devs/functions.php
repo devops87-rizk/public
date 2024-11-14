@@ -6,3 +6,10 @@
         wp_enqueue_script('dropdown', get_template_directory_uri() .'/js/dropdown.js', array(), '1.0', true);
     }
     add_action ('wp_enqueue_scripts', 'fictionalportofolio_load_scripts');
+
+    register_nav_menus(
+        array(
+            'fictional_portofolio_main_menu' => 'Main Menu',
+            'fictional_portofolio_footer_menu' => 'Footer Menu',
+        )
+    );

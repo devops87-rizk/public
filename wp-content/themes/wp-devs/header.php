@@ -18,9 +18,11 @@
                 </div> 
             </section>
             <section class="menu-area">
-                <nav class="main-menu">
-                    menu
-                </nav>
+                <div class="container">
+                    <nav class="main-menu">
+                        menu
+                    </nav>
+                </div>
             </section>
         </header>
         
