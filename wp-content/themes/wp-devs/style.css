@@ -729,9 +729,33 @@ img {
 }
 
 /* Home Blog */
-
-
-
+.home .home-blog{
+    padding: var( --fictionalportofolio-big-padding);    
+}
+.home-blog .container article:first-child{
+    grid-area: feat-item;
+}
+.home-blog .container{
+    display: grid;
+    grid-template-areas: 'feat item feat item';
+    grid-gap: 25px;
+}
+.home .home-blog h2{
+    text-align: center;
+    position: relative;
+}
+.home .home-blog h2::after{
+    content: '';
+    position: absolute;
+    background-color: var(--fictionalportofolio-light-blue);
+    width: 35px;
+    height: 5px;
+    right: calc(50% - 5px);
+    bottom: 0;
+}
+.home .home-blog .latest-news{
+    text-align: center;
+}
 
 
 
