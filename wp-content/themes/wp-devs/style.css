@@ -799,7 +799,7 @@ footer .container .row{
 }
 
 /* Footer - Footer Menu */
-.site-footer .container p{
+.site-footer .container{
     display: flex;
     justify-content: space-between;
     align-items: center;

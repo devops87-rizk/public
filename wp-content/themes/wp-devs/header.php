@@ -6,21 +6,22 @@
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ullamcorper viverra. Cras et risus id sapien euismod viverra vitae id arcu.</p>
     <div id="page" class="site">
         <header>
             <section class="top-bar">
-                <div class="logo">
-                    logo
+                <div class="container">
+                    <div class="logo">
+                        logo
+                    </div>
+                    <div class="searchbox">
+                        search          
+                    </div>
                 </div>
-                <div class="searchbox">
-                    searchbox          
-                </div> 
             </section>
             <section class="menu-area">
                 <div class="container">
                     <nav class="main-menu">
-                        menu
+                        <?php wp_nav_menu( array( 'theme_location' => 'fictional_portofolio_main_menu', 'depth' => 2)); ?>
                     </nav>
                 </div>
             </section>
